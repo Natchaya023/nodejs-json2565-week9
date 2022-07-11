@@ -1,7 +1,7 @@
 const http = require('http')
 const msg = require('./message.js')
-const {loadUser} = require('./user.models')
-const {loadVnl2022} = require('./vnl2022_model.js')
+const {loadUser} = require('./user_model.js')
+const {loadVnl2022} = require('./vnl2002_model')
 
 const host = "localhost"
 const PORT = process.env.PORT || 5000
