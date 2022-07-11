@@ -1,4 +1,4 @@
-const {readfileSync} = require('fs')
+const {readFileSync} = require('fs')
 
 const loadUser = ()=>JSON.parse(readFileSync('users.json'))
 
